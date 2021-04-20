@@ -16,6 +16,15 @@ CRM system for Najot Ta'lim (written in SQL)
 	)
 ```
 
+## List Of Users (with pagination)
+
+```sql
+select get_users(
+	1,	-- CurrentPage int (for pagination)
+	20,	-- Limit int (for pagination)
+);
+```
+
 ## Permissions
 
 + 0 SET PERMISSION

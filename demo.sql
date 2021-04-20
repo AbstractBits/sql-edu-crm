@@ -28,6 +28,10 @@ select new_user(
 	'M', '1994-04-01', 1
 );
 
+-- [LIST OF USERS] (with pagination)
+-- current_page
+-- limit
+select get_users(1, 20);
 
 -- [SET PERMISSION]
 -- operator (user_id)
